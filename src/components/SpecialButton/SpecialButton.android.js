@@ -3,9 +3,8 @@ import { TouchableOpacity, Text, StyleSheet } from "react-native";
 
 const style = StyleSheet.create({
   button: {
-    color: "white",
     padding: 10,
-    backgroundColor: "red"
+    backgroundColor: "orange"
   }
 });
 

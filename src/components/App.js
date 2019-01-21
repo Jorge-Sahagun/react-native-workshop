@@ -14,15 +14,15 @@ const instructions = Platform.select({
   ios: "Hi iOS",
   android: "Hi Android"
 });
+// <Button title="Press me" />
+// <Switch />
+// <SpecialButton />
 
 export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
         <Text style={styles.instructions}>{instructions}</Text>
-        <Button title="Press me" />
-        <Switch />
-        <SpecialButton />
       </View>
     );
   }
